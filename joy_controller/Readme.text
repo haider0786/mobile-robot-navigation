@@ -1,0 +1,9 @@
+To the joy_controller
+first run 
+ rosrun joy joy_node  (stabilize the connection between joystick and ros )
+
+In New Tab
+ rosrun joy_controller j_controller.py
+
+
+rosparam set joy_node/dev "/v/input/js1"
