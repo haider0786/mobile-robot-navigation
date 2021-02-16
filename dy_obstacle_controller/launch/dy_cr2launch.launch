@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<launch>
+
+
+<node pkg="dy_obstacle_controller" type="ob_pathcr2.py" name="Trajectory1" output="screen" />
+<node pkg="dy_obstacle_controller" type="ob_controller_cr2.py" name="controller1" output="screen" />
+
+</launch>

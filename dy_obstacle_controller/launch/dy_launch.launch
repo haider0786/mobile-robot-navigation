@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<launch>
+
+
+<remap from="/Obstacle1/odom" to="/Obstacle1/odom"/>
+<remap from="/Obstacle1/cmd_vel" to="/Obstacle1/cmd_vel"/>
+<remap from="/xy1" to="/xy1"/>
+<remap from="/Ack1" to="/Ack1"/>
+<node pkg="dy_obstacle_controller" type="ob1_path.py" name="Trajectory1" output="screen" />
+<node pkg="dy_obstacle_controller" type="ob_controller.py" name="controller1" output="screen" />
+
+
+<remap from="/Obstacle1/odom" to="/Obstacle2/odom"/>
+<remap from="/Obstacle1/cmd_vel" to="/Obstacle2/cmd_vel"/>
+<remap from="/xy1" to="/xy2"/>
+<remap from="/Ack1" to="/Ack2"/>
+<node pkg="dy_obstacle_controller" type="ob2_path.py" name="Trajectory2" output="screen" />
+<node pkg="dy_obstacle_controller" type="ob_controller.py" name="controller2" output="screen" />
+
+<remap from="/Obstacle1/odom" to="/Obstacle3/odom"/>
+<remap from="/Obstacle1/cmd_vel" to="/Obstacle3/cmd_vel"/>
+<remap from="/xy1" to="/xy3"/>
+<remap from="/Ack1" to="/Ack3"/>
+<node pkg="dy_obstacle_controller" type="ob3_path.py" name="Trajectory3" output="screen" />
+<node pkg="dy_obstacle_controller" type="ob_controller.py" name="controller3" output="screen" />
+
+
+<remap from="/Obstacle1/odom" to="/Obstacle4/odom"/>
+<remap from="/Obstacle1/cmd_vel" to="/Obstacle4/cmd_vel"/>
+<remap from="/xy1" to="/xy4"/>
+<remap from="/Ack1" to="/Ack4"/>
+<node pkg="dy_obstacle_controller" type="ob4_path.py" name="Trajectory4" output="screen" />
+<node pkg="dy_obstacle_controller" type="ob_controller.py" name="controller4" output="screen" />
+
+
+<remap from="/Obstacle1/odom" to="/Obstacle5/odom"/>
+<remap from="/Obstacle1/cmd_vel" to="/Obstacle5/cmd_vel"/>
+<remap from="/xy1" to="/xy5"/>
+<remap from="/Ack1" to="/Ack5"/>
+<node pkg="dy_obstacle_controller" type="ob5_path.py" name="Trajectory5" output="screen" />
+<node pkg="dy_obstacle_controller" type="ob_controller.py" name="controller5" output="screen" />
+
+<remap from="/Obstacle1/odom" to="/Obstacle6/odom"/>
+<remap from="/Obstacle1/cmd_vel" to="/Obstacle6/cmd_vel"/>
+<remap from="/xy1" to="/xy6"/>
+<remap from="/Ack1" to="/Ack6"/>
+<node pkg="dy_obstacle_controller" type="ob6_path.py" name="Trajectory6" output="screen" />
+<node pkg="dy_obstacle_controller" type="ob_controller.py" name="controller6" output="screen" />
+
+</launch>
