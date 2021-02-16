@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<launch>
+<node pkg="simple_controller" type="dy_singlestepcontroller.py" name="speed_controller1" output="screen" />
+<node pkg="simple_controller" type="dy_singlestepcontroller2.py" name="speed_controller2" output="screen" />
+</launch>

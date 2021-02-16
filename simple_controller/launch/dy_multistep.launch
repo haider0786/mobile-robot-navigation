@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<launch>
+<node pkg="simple_controller" type="dy_multistepvelr1.py" name="speed_controller1" output="screen" />
+<!--<node pkg="simple_controller" type="dy_multistepvelr2.py" name="speed_controller2" output="screen" />-->
+<!--<node pkg="simple_controller" type="dy_multistepr3.py" name="speed_controller3" output="screen" />
+<node pkg="simple_controller" type="dy_multistepr4.py" name="speed_controller4" output="screen" />
+<node pkg="simple_controller" type="dy_data_save_er3.py" name="speed_controller1" output="screen" />
+<node pkg="simple_controller" type="dy_data_save_er3r2.py" name="speed_controller2" output="screen" /> 
+<node pkg="simple_controller" type="dy_data_save_er3r3.py" name="speed_controller3" output="screen" />
+<node pkg="simple_controller" type="dy_data_save_er3r4.py" name="speed_controller4" output="screen" />-->
+</launch>
